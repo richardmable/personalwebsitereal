@@ -8,18 +8,32 @@ body {
 	margin:0 auto;
 }
 
-.navbar {
+.socialmediabar {
 	width: 100px;
 	position: fixed;
 	float: left;
 }
 
-.navbar ul {
+.socialmediabar ul {
 	list-style-type: none;
 }
 
 .socialmedia:hover {
 	box-shadow: 5px 5px 5px #789FAB;
+}
+
+.navbarlink {
+	text-decoration: none;
+
+}
+
+nav {
+	position: fixed;
+	float: right;
+}
+
+nav li {
+	list-style-type: none;
 }
 
 .maincontent {
@@ -47,8 +61,4 @@ body {
 	top: 0px;
 	right: 0px;
 	z-index: -1;
-}
-
-.footer {
-
 }
