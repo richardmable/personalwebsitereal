@@ -18,15 +18,19 @@ body {
 	list-style-type: none;
 }
 
+.socialmedia:hover {
+	box-shadow: 5px 5px 5px #789FAB;
+}
+
 .maincontent {
-	background-color: blue;
+	background-color: #058F8F;
 	width: 1000px;
 	height: 100%;
 	margin: 0 auto;
 }
 
 .gutterleft {
-	background-color: orange;
+	background-color: #0B438D;
 	width: 220px;
 	height: 100%;
 	position: absolute;
@@ -36,7 +40,7 @@ body {
 }
 
 .gutterright {
-	background-color: red;
+	background-color: #D57E04;
 	width: 220px;
 	height: 100%;
 	position: absolute;
