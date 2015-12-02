@@ -1,9 +1,12 @@
 #wrapper {
 	width: 1440px;
 	margin: 0 auto;
-	background-color: blue;
 	background: url:("");
-	}
+}
+
+body {
+	margin:0 auto;
+}
 
 .navbar {
 	width: 100px;
@@ -15,11 +18,31 @@
 	list-style-type: none;
 }
 
-
 .maincontent {
-	width: 900px;
+	background-color: blue;
+	width: 1000px;
+	height: 100%;
 	margin: 0 auto;
+}
 
+.gutterleft {
+	background-color: orange;
+	width: 220px;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	right: 1220px;
+	z-index: -1;
+}
+
+.gutterright {
+	background-color: red;
+	width: 220px;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: -1;
 }
 
 .footer {
