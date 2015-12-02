@@ -1,11 +1,16 @@
 #wrapper {
 	width: 1440px;
 	margin: 0 auto;
-	background: url:("");
 }
 
 body {
-	margin:0 auto;
+	margin: 0 auto;
+}
+
+h1 {	
+	text-align: center;
+	margin: 0 auto;
+	position: inline;
 }
 
 .socialmediabar {
@@ -36,11 +41,15 @@ nav li {
 	list-style-type: none;
 }
 
-.maincontent {
+.backgroundmid {
 	background-color: #058F8F;
 	width: 1000px;
 	height: 100%;
 	margin: 0 auto;
+	position: absolute;
+	top: 0px;
+	right: 220px;
+	z-index: -1;
 }
 
 .gutterleft {
@@ -61,4 +70,8 @@ nav li {
 	top: 0px;
 	right: 0px;
 	z-index: -1;
+}
+
+footer {
+	clear: both;
 }
