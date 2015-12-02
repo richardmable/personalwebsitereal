@@ -1,6 +1,27 @@
 #wrapper {
 	width: 1440px;
-	margin 0 auto;
-	background: url:("")
+	margin: 0 auto;
+	background-color: blue;
+	background: url:("");
 	}
 
+.navbar {
+	width: 100px;
+	position: fixed;
+	float: left;
+}
+
+.navbar ul {
+	list-style-type: none;
+}
+
+
+.maincontent {
+	width: 900px;
+	margin: 0 auto;
+
+}
+
+.footer {
+
+}
