@@ -1,4 +1,4 @@
-* To do eventually:
+#To do eventually:
 * Rework color scheme to be a bit better.  Maybe too much yellow.
 * Change social media icons to line icons using SVG.
 * Better navigation buttons, make whole button a link.
@@ -7,4 +7,7 @@
 * Look over fonts to load only those needed to speed up load time.
 * Compress pictures/better way to load for faster time.
 * Make mobile friendly.
+* Make photo gallery more visually appealing.
+* Links to full size photos.
+* Better content in the "About" section.
 

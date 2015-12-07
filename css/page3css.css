@@ -74,6 +74,39 @@ nav li a {
 	color: #A46206;
 }
 
+.maincontent h3 {
+	letter-spacing: 1px;
+}
+
+.maincontent {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.mainleft {
+	float: left;
+	width: 450px;
+	color: #FFD279;
+	padding: 15px;
+}
+
+.mainright {
+	float: right;
+	width: 450px;
+	color: #FFD279;
+	padding: 15px;
+}
+
+.mainright a {
+	text-decoration: none;
+	color: #FFD279;
+	font-weight: bold;
+}
+
+.mainright a:hover {
+	color: blue;
+}
+
 .backgroundmid {
 	background-color: #058F8F;
 	width: 1000px;
