@@ -5,12 +5,29 @@
 
 body {
 	margin: 0 auto;
+	font-family: 'Open sans', sans-serif;
 }
 
 h1 {	
 	text-align: center;
 	margin: 0 auto;
-	position: inline;
+	font-weight: 800;
+	letter-spacing: 15px;
+	font-size: 400%;
+	color: #FFD279;
+}
+
+h2, h3 {	
+	text-align: center;
+	margin: 0 auto;
+	font-weight: 300;
+	letter-spacing: 5px;
+	color: #FFD279;
+	line-height: 45px;
+}
+
+h3 {
+	margin-top: 100px;
 }
 
 .socialmediabar {
@@ -69,6 +86,12 @@ nav li a {
 	color: #A46206;
 }
 
+.maincontent {
+	width: 900px;
+	height: 100%;
+	margin: 0 auto;
+}
+
 .backgroundmid {
 	background-color: #058F8F;
 	width: 1000px;
@@ -109,4 +132,5 @@ footer {
 	position: fixed;
 	bottom: 0px;
 	left: 220px;
+	color: #058F8F;
 }
