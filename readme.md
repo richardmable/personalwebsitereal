@@ -10,4 +10,4 @@
 * Make photo gallery more visually appealing.
 * Links to full size photos.
 * Better content in the "About" section.
-
+* Rework backgrounds so additional content can be put in without needing to adjust height parameter to pixels to fit content.
