@@ -1,0 +1,76 @@
+$color-side-bar: #EE7108;
+$color-line-icon: #3F5CA1;
+$color-link-hover: #15337A;
+
+
+//placeholder for line icons
+%line-icon {
+	font-size: 3vw;
+	color: $color-line-icon;
+	transition: all 0.5s;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 1vw;
+}
+
+%line-icon-hover {
+	color: $color-link-hover;
+	transition: all 0.5s;
+}
+
+
+//normal look for line icons
+.icon-social-twitter{
+@extend %line-icon;
+}
+
+.icon-social-linkedin{
+@extend %line-icon;
+}
+
+.icon-social-github{
+@extend %line-icon;
+}
+
+.icon-social-instagram{
+@extend %line-icon;
+}
+
+.icon-notebook{
+@extend %line-icon;
+}
+
+.icon-envelope-letter{
+@extend %line-icon;
+}
+
+
+//hover actions for line icons
+.icon-social-twitter:hover {
+@extend %line-icon-hover;
+}
+
+.icon-social-linkedin:hover {
+@extend %line-icon-hover;
+}
+
+.icon-social-github:hover {
+@extend %line-icon-hover;
+}
+
+.icon-social-instagram:hover {
+@extend %line-icon-hover;
+}
+
+.icon-notebook:hover {
+@extend %line-icon-hover;
+}
+
+.icon-envelope-letter:hover {
+@extend %line-icon-hover;
+}
+
+
+
+
+

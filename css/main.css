@@ -1,0 +1,116 @@
+.icon-social-twitter, .icon-social-linkedin, .icon-social-github, .icon-social-instagram, .icon-notebook, .icon-envelope-letter {
+  font-size: 3vw;
+  color: #3F5CA1;
+  transition: all 0.5s;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 1vw; }
+
+.icon-social-twitter:hover, .icon-social-linkedin:hover, .icon-social-github:hover, .icon-social-instagram:hover, .icon-notebook:hover, .icon-envelope-letter:hover {
+  color: #15337A;
+  transition: all 0.5s; }
+
+nav ul li a, .maincontent-page2 a, .maincontent-page3 a, footer a {
+  display: inline-block;
+  font-size: 1.3vw;
+  text-decoration: none;
+  color: #FFF;
+  margin: 1vw;
+  transition: all 0.5s;
+  padding: .3vw;
+  border-radius: 5px; }
+
+nav ul li a:hover, .maincontent-page2 a:hover, .maincontent-page3 a:hover, footer a:hover {
+  color: #15337A;
+  transition: all 0.5s;
+  background-color: #FFF; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+body {
+  background-color: #50A8A8;
+  font-family: 'Open sans', sans-serif;
+  height: 100%; }
+
+.wrapper {
+  min-height: 100%;
+  position: relative; }
+
+.socialmediabar {
+  background-color: #EE7108;
+  position: fixed;
+  top: 6.3vw;
+  left: 0px;
+  z-index: 10; }
+  .socialmediabar ul {
+    padding: initial; }
+  .socialmediabar ul li {
+    list-style-type: none;
+    padding: 1vw;
+    line-height: 5vw; }
+  .socialmediabar ul li a {
+    text-decoration: none; }
+
+nav {
+  position: fixed;
+  background-color: #163FA0;
+  display: inline-block;
+  margin: 0px;
+  width: 100%;
+  z-index: 11; }
+  nav ul {
+    padding: 1vw;
+    margin: .3vw; }
+  nav ul li {
+    list-style-type: none;
+    display: inline-block; }
+  nav ul li a {
+    margin-right: 4vw;
+    margin-left: 4vw; }
+
+.maincontent {
+  text-align: center;
+  padding-bottom: 100px;
+  font-size: 3vw;
+  margin: 0px;
+  padding: 2vw;
+  position: absolute;
+  top: 11vw;
+  left: 12vw; }
+
+.maincontent-page2 {
+  position: absolute;
+  padding-bottom: 100px;
+  top: 11vw;
+  left: 12vw; }
+
+.maincontent-page3 {
+  width: 65vw;
+  position: absolute;
+  padding-bottom: 100px;
+  top: 11vw;
+  left: 12vw; }
+  .maincontent-page3 p {
+    font-size: 1.5vw; }
+
+footer {
+  width: 50%;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 0; }
+  footer p {
+    display: inline-block;
+    font-size: 1.3vw;
+    text-decoration: none;
+    color: #FFF;
+    margin: 1vw; }
+
+/*# sourceMappingURL=main.css.map */
