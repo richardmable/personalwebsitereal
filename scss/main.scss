@@ -15,8 +15,8 @@
 
 %a-tag-hover {
 	color: $color-link-hover;
-		transition: all 0.5s;
-		background-color: #FFF;
+	transition: all 0.5s;
+	background-color: #FFF;
 }
 
 * {
@@ -33,10 +33,11 @@ html {
 body {
 	background-color: $color-background;
 	font-family: 'Open sans', sans-serif;
+	color: $font-color;
 	height: 100%;
 }
 
-.wrapper {
+.container {
 	min-height:100%;
 	position:relative;
 }
@@ -146,18 +147,21 @@ footer {
 		display: inline-block;
 		font-size: 1.3vw;
 		text-decoration: none;
-		color: #FFF;
+		color: $font-color;
 		margin: 1vw; 	
 	}
 
 	a {
 		@extend %a-tag;
+		color: $font-color;
 	}
 
 	a:hover {
-		@extend %a-tag-hover
+		@extend %a-tag-hover;
 	}
 }
+
+
 
 
 

@@ -35,16 +35,17 @@ html {
   height: 100%; }
 
 body {
-  background-color: #50A8A8;
+  background-color: #DCEDEB;
   font-family: 'Open sans', sans-serif;
+  color: #0E3577;
   height: 100%; }
 
-.wrapper {
+.container {
   min-height: 100%;
   position: relative; }
 
 .socialmediabar {
-  background-color: #EE7108;
+  background-color: #FB9B70;
   position: fixed;
   top: 6.3vw;
   left: 0px;
@@ -60,7 +61,7 @@ body {
 
 nav {
   position: fixed;
-  background-color: #163FA0;
+  background-color: #355DA1;
   display: inline-block;
   margin: 0px;
   width: 100%;
@@ -110,7 +111,9 @@ footer {
     display: inline-block;
     font-size: 1.3vw;
     text-decoration: none;
-    color: #FFF;
+    color: #0E3577;
     margin: 1vw; }
+  footer a {
+    color: #0E3577; }
 
 /*# sourceMappingURL=main.css.map */
