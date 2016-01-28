@@ -1,7 +1,6 @@
 @import 'colors';
 @import 'line-icons';
 
-
 %a-tag {
 	display: inline-block;
 	font-size: 1.3vw;
@@ -39,21 +38,31 @@ body {
 
 .container {
 	min-height:100%;
-	position:relative;
+	margin: 0 auto;
 }
 
 .socialmediabar {
+	//for centering a fixed element
+	right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 45vw;
 	background-color: $color-side-bar;
 	position: fixed;
-	top: 6.3vw;
+	bottom: 2vw;
 	left: 0px;
 	z-index: 10;
+	height: 6vw;
+	border-radius: 10px;
 
 	//this gets ride of the 40px padding that comes with ul
 	ul {
+		text-align: center;
 		padding: initial;
 	}
 	ul li {
+		display: inline-block;
 		list-style-type: none;
 		padding: 1vw;
 		line-height: 5vw;
@@ -64,6 +73,7 @@ body {
 }
 
 nav {
+	text-align: center;
 	position: fixed;
 	background-color: $color-top-bar;
 	display: inline-block;
@@ -92,21 +102,56 @@ nav {
 }
 
 .maincontent {
+	margin: 0 auto;
+	position: relative;
 	text-align: center;
 	padding-bottom: 100px;
-	font-size: 3vw;
 	margin: 0px;
 	padding: 2vw;
-	position: absolute;
-	top: 11vw;
+	top: 7vw;
 	left: 12vw;
+	width: 70vw;
+
+	h1 {
+		font-size: 5vw;
+		letter-spacing: 1vw;
+	}
+
+	h3 {
+		margin-top: 5vw;
+	}
+
+	.para-content {
+		margin: 0 auto;
+		width: 40vw;
+	}
+
+	.para-content p {
+		text-align: justify;
+		margin-top: 5vw;
+	}
+
+	.para-content .bottom-para {
+		margin-bottom: 10vw;
+	}
 }
 
 .maincontent-page2 {
-	position: absolute;
+	margin: 0 auto;
 	padding-bottom: 100px;
-	top: 11vw;
-	left: 12vw;
+	padding-top: 11vw;
+	text-align: center;
+
+	.project {
+		background-color: #6A458D;
+		width: 40vw;
+		margin: 0 auto;
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+		border-radius: 10px;
+		padding: 1.5vw;
+	}
+
 	a {
 		@extend %a-tag;
 	}
@@ -118,42 +163,38 @@ nav {
 }
 
 .maincontent-page3 {
+	margin: 0 auto;
+	padding-top: 10vw;
 	width: 65vw;
-	position: absolute;
 	padding-bottom: 100px;
 	top: 11vw;
-	left: 12vw;
-	p {
-		font-size: 1.5vw;
+
+	.mainright p {
+		margin: 0 auto;
+		width: 40vw;
+		text-align: justify;
+		margin-top: 1vw;
+	}
+
+	.mainright h3 {
+		text-align: center;
+	}
+
+	.mainleft p {
+		margin: 0 auto;
+		width: 40vw;
+		text-align: justify;
+		margin-top: 1vw;
+	}
+
+	.mainleft h3 {
+		text-align: center;
 	}
 
 	a {
 		@extend %a-tag;
-	}
-
-	a:hover {
-		@extend %a-tag-hover;
-	}
-}
-
-footer {
-	width:50%;
-	height:100px;
-	position:fixed;
-	bottom:0;
-	left:0;
-
-	p {
-		display: inline-block;
-		font-size: 1.3vw;
-		text-decoration: none;
-		color: $font-color;
-		margin: 1vw; 	
-	}
-
-	a {
-		@extend %a-tag;
-		color: $font-color;
+		margin: 0;
+		padding: .1vw;
 	}
 
 	a:hover {
