@@ -2,14 +2,13 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="description" content="Richard Mable's official portfolio for web development">
+		<meta name="description" content="Richard Mable's official portfolio site. Links to projects, blog and contact information.">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="icons/simple-line-icons.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<script type="text/javascript" src="javascript/main.js"></script>
 		<title>Richard Mable | Web Developer</title>
 	</head>
-
 	<body>
 	<!-- social media bar -->
 		<div class="socialmediabar">
@@ -41,12 +40,13 @@
 				<li>
 			</ul>
 		</nav>
+		<div class="clearfix-top"></div>
 		<!-- top section initial content -->
 		<div id="maincontent">
 			<h1>Richard Mable</h1>
 			<h2>Web Programmer</h2>
 			<div class="para-content">
-				<p>Hello, I'm Richard!</p>
+				<p class="hello">Hello, I'm Richard!</p>
 				<p>
 					I'm a recent graduate of the <a href="http://nycda.com">New York Code and Design Academy</a> in Philadelphia. I enjoy developing the back-end of websites, am interested in health and fitness technology, and enjoy tinkering with the Tessel IO board. I also blog a bit, mostly about problems I come across while coding and how I solve them. You might also see the occasional bike race re-cap in there as well!
 				</p>
@@ -59,48 +59,54 @@
 		</div>
 		<!-- the portfolio section -->
 		<div id="portfolio">
-			<h3>You can find a more detailed discussion of how these projects were created by checking out the blog</h3>
-			<div class="project">
+			<h1>Portfolio</h1>
+			<p class="portfolioDescription">You can find a more detailed discussion of the particular challenges of each project in the blog</p>
+			<div class="project3">
 				<a href="https://github.com/richardmable/shipping" target="new">Shipping Application</a>
 				<p>
-					This project had us create a shipping application that might be used by a shipping company to assign orders, maintain ships, and chart routes. The database for this project was the most demanding aspect, taking the better part of two days to accomplish. As one can imagine, there are many, many ways to set up a database for a project like this, depending on how many features one would like to have. Having only 4 days to build the project, we had to settle for some compromises, but were very pleased in how it came out, and have continued to improve it since then.
+					The objective of this project was to create a shipping application that might be used by a shipping company to assign orders, maintain ships, and track routes. The database for this project was the most demanding aspect, taking the better part of two days to accomplish. As one can imagine, there are many, many ways to set up a database for a project like this, depending on how many features one would like to have. Having only 4 days to build the project, we had to learned to compromise, and were very pleased in the result.
 				</p>
 			</div>
-			<div class="project">
+			<div class="project4">
 				<a href="https://aqueous-beach-4947.herokuapp.com" target="new">BB-8...6 Microblog</a>
 				<p>
-					This application is an attempt to mimmick some of the functions of Twitter. Challenges for this project included users following each other, limiting the posts to 150 characters, and our first steps towards learning how to validate form information upon submission. It was built with the theme of BB-8, but for bikes, as BB-86 is a bottom bracket type.
+					A two person group project, this application replicated the general format of Twitter. Challenges for this project included users following each other, limiting the posts to 150 characters, and our first steps towards learning how to validate form information upon submission. It was built with the theme of BB-8, but for bikes, as BB-86 is a bottom bracket type.
 				</p>
 			</div>
-			<div class="project">
+			<div class="project5">
 				<a href="https://github.com/richardmable/ruby_ORM" target="new">Ruby ORM (Recreate Activerecord!)</a>
 				<p>
-					This project was to recreate some of the widely used features of Activerecord, and to become more familiar with SQL commands. The most challenging part of this project was parsing the strings that were returned by psql. A great exercise in logical thinking and how to return data that is useful, and not just static.
+					This project's goal was to recreate some of the widely used features of Activerecord, and to become more familiar with SQL commands. The most challenging part of this project was parsing the strings that were returned by psql. A excellent exercise in logical thinking and how to return data as an object, so that methods may be run on the object.
 				</p>
 			</div>
 		</div>
 		<!-- the about section  -->
 		<div id="about">
-			<div class="mainleft">
-				<h3>Education</h3>
-				<p>Hobart College, 2010</p>
-				<p>B.A., Environmental Studies</p>
-				<p>Pomfret School, 2006</p>
-				<p>NYCDA, 2016!</p>
-				<h3>Past Work:</h3>
+			<div class="aboutMe">
+				<h3>Travels</h3>
+				<p class="travels">I grew up in the town of Pomfret, CT, but have lived and visited a number of places so far: San Francisco, L.A., New Zealand, and Tahoe City, and currently Philadelphia. I also enjoy photography, and have take many pictures on my travels.
+				<h3>Developer Interests</h3>
+				<p class="devInterests">My primary interest is in the back end of web development and how to make it more efficient. I also thoroughly enjoy data visualization and anything fitness related.</p>
+				<h3>Other Interests</h3>
+				<p class="otherInterests">I enjoy skiing, where I am a certified NZSIA Level II instructor, sailing, where I'm a US Sailing certified small boat instructor, and cycling, where I'm currently a Cat 4 racer with <a href="http://qcwcycling.org" taget="new">QCW.</a></p>
+			</div>
+			<div class="resume">
+				<h3>Resume:</h3>
+				<p><a href="https://www.linkedin.com/in/richardbmable" target="new">Check out my LinkedIn for full work history</a></p>
+				<p><a href="https://s3.amazonaws.com/www.rmthoughts.com/resume/Richard+Mable+Resume.pdf" target="new">Resume</a></p>
+				<h3>Short History of Past Work:</h3>
 				<p>Brown Ledge Camp: Head of Sailing, Instructor</p>
 				<p>Rectory School: Math Teacher, Technology Educator, IT Support</p>
 				<p>Squaw Kids: Ski Instructor</p>
 				<p>Pacific Rowing Club: Assistant Men's Coach</p>
-			</div>
-			<div class="mainright">
-				<h3>Travels</h3>
-				<p>I grew up in the tiny town of Pomfret, CT, but have lived and visited a number of places so far: San Francisco, L.A., New Zealand, and Tahoe City, and now Philadelphia. I also enjoy taking pictures during my travels, some of which you can see in the photo gallery.</p>
-				<h3>Developer Interests</h3>
-				<p>My primary interest is in the back end of web development and how to make it more efficient. I also thoroughly enjoy data visualization and anything fitness related.</p>
-				<h3>Other Interests</h3>
-				<p>I enjoy skiing, where I am a certified NZSIA Level II instructor, sailing, where I'm a US Sailing certified small boat instructor, and cycling, where I'm currently a Cat 4 racer with <a href="http://qcwcycling.org" taget="new">QCW.</a></p>
+				<h3>Education:</h3>
+				<p>NYCDA Philadelphia, November - March 2016</p>
+				<p>Hobart College, 2010</p>
+				<p>B.A., Environmental Studies</p>
 			</div>
 		</div>
+		<div class="lastUpdated">
+		</div>
+		<div class="clearfix-bottom"></div>
 	</body>
 </html>

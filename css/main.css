@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic,700);
 .icon-social-twitter, .icon-social-linkedin, .icon-social-github, .icon-social-instagram, .icon-notebook, .icon-envelope-letter {
-  font-size: 3vw;
+  font-size: 40px;
   color: #FFFFFF;
   transition: all 0.5s;
   text-decoration: none;
   list-style-type: none;
-  padding: 1vw; }
+  margin: 5px; }
 
 .icon-social-twitter:hover, .icon-social-linkedin:hover, .icon-social-github:hover, .icon-social-instagram:hover, .icon-notebook:hover, .icon-envelope-letter:hover {
   color: #15337A;
@@ -16,17 +16,26 @@
 @font-face {
   font-family: 'telegrafico';
   src: url("../fonts/telegrafico.ttf"); }
-nav ul li a {
+#maincontent, #portfolio, #about {
+  margin: auto;
+  width: 700px; }
+  #maincontent h1, #portfolio h1, #about h1, #maincontent h2, #portfolio h2, #about h2, #maincontent h3, #portfolio h3, #about h3 {
+    margin: 20px auto 20px auto;
+    text-align: center; }
+  #maincontent p, #portfolio p, #about p {
+    margin: 0px 20px 5px 20px; }
+
+nav ul li a, #maincontent a, #portfolio a, #about a {
   display: inline-block;
-  font-size: 1.3vw;
+  font-size: 15px;
   text-decoration: none;
   color: #FFF;
-  margin: 1vw;
+  margin: 10px;
   transition: all 0.5s;
-  padding: .3vw;
+  padding: 10px;
   border-radius: 5px; }
 
-nav ul li a:hover {
+nav ul li a:hover, #maincontent a:hover, #portfolio a:hover, #about a:hover {
   color: #15337A;
   transition: all 0.5s;
   background-color: #FFF; }
@@ -38,8 +47,11 @@ nav ul li a:hover {
 body {
   background-color: #FFFFFF;
   font-family: "Raleway", Georgia, serif;
-  color: #002A3A;
-  height: 100%; }
+  color: #002A3A; }
+  body p {
+    font-size: 110%;
+    line-height: 25px;
+    text-align: justify; }
 
 h1, h2, h3 {
   font-family: "telegrafico", Georgia, serif; }
@@ -49,22 +61,21 @@ h1, h2, h3 {
   left: 0;
   margin-right: auto;
   margin-left: auto;
-  width: 45vw;
+  width: 450px;
   background-color: tomato;
   position: fixed;
-  bottom: 2vw;
+  bottom: 15px;
   left: 0px;
   z-index: 10;
-  height: 6vw;
+  height: 75px;
   border-radius: 10px; }
   .socialmediabar ul {
     text-align: center;
-    padding: initial; }
+    margin-top: 10px; }
   .socialmediabar ul li {
     display: inline-block;
     list-style-type: none;
-    padding: 1vw;
-    line-height: 5vw; }
+    margin: 10px; }
   .socialmediabar ul li a {
     text-decoration: none; }
 
@@ -77,13 +88,70 @@ nav {
   width: 100%;
   z-index: 11; }
   nav ul {
-    padding: 1vw;
-    margin: .3vw; }
+    padding: 10px;
+    margin: 3px; }
   nav ul li {
     list-style-type: none;
     display: inline-block; }
   nav ul li a {
-    margin-right: 4vw;
-    margin-left: 4vw; }
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 30px; }
+
+.clearfix-top {
+  height: 150px; }
+
+#maincontent .hello {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px; }
+#maincontent a {
+  color: #002A3A;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: underline;
+  font-size: 110%; }
+#maincontent a:hover {
+  margin: 0px;
+  padding: 0px;
+  color: tomato; }
+#maincontent .bottom-para {
+  margin: 25px auto 50px auto; }
+
+#portfolio a {
+  color: #002A3A;
+  margin: 0px;
+  padding: 0px;
+  font-size: 125%;
+  text-decoration: underline;
+  margin: 10px auto 10px auto; }
+#portfolio a:hover {
+  margin: 0px;
+  padding: 0px;
+  color: tomato; }
+#portfolio .portfolioDescription {
+  margin: auto;
+  width: 500px;
+  text-align: center;
+  margin-bottom: 20px; }
+#portfolio .project5 {
+  margin-bottom: 100px; }
+
+#about .travels, #about .devInterests, #about .otherInterests {
+  text-align: left; }
+#about p {
+  text-align: center; }
+#about a {
+  color: #002A3A;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: underline; }
+#about a:hover {
+  margin: 0px;
+  padding: 0px;
+  color: tomato; }
+
+.clearfix-bottom {
+  height: 150px; }
 
 /*# sourceMappingURL=main.css.map */
