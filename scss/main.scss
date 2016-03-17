@@ -124,7 +124,7 @@ nav {
 	height: 150px;
 }
 
-#maincontent {
+#mainContent {
 	@extend %content;
 	.hello {
 		text-align: center;
@@ -201,6 +201,11 @@ nav {
 		padding: 0px;
 		color: tomato;
 	}
+}
+
+#lastUpdated p {
+	margin: 100px auto auto auto;
+	text-align: center;
 }
 
 .clearfix-bottom {

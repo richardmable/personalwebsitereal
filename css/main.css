@@ -16,16 +16,16 @@
 @font-face {
   font-family: 'telegrafico';
   src: url("../fonts/telegrafico.ttf"); }
-#maincontent, #portfolio, #about {
+#mainContent, #portfolio, #about {
   margin: auto;
   width: 700px; }
-  #maincontent h1, #portfolio h1, #about h1, #maincontent h2, #portfolio h2, #about h2, #maincontent h3, #portfolio h3, #about h3 {
+  #mainContent h1, #portfolio h1, #about h1, #mainContent h2, #portfolio h2, #about h2, #mainContent h3, #portfolio h3, #about h3 {
     margin: 20px auto 20px auto;
     text-align: center; }
-  #maincontent p, #portfolio p, #about p {
+  #mainContent p, #portfolio p, #about p {
     margin: 0px 20px 5px 20px; }
 
-nav ul li a, #maincontent a, #portfolio a, #about a {
+nav ul li a, #mainContent a, #portfolio a, #about a {
   display: inline-block;
   font-size: 15px;
   text-decoration: none;
@@ -35,7 +35,7 @@ nav ul li a, #maincontent a, #portfolio a, #about a {
   padding: 10px;
   border-radius: 5px; }
 
-nav ul li a:hover, #maincontent a:hover, #portfolio a:hover, #about a:hover {
+nav ul li a:hover, #mainContent a:hover, #portfolio a:hover, #about a:hover {
   color: #15337A;
   transition: all 0.5s;
   background-color: #FFF; }
@@ -101,21 +101,21 @@ nav {
 .clearfix-top {
   height: 150px; }
 
-#maincontent .hello {
+#mainContent .hello {
   text-align: center;
   margin-bottom: 20px;
   font-size: 20px; }
-#maincontent a {
+#mainContent a {
   color: #002A3A;
   margin: 0px;
   padding: 0px;
   text-decoration: underline;
   font-size: 110%; }
-#maincontent a:hover {
+#mainContent a:hover {
   margin: 0px;
   padding: 0px;
   color: tomato; }
-#maincontent .bottom-para {
+#mainContent .bottom-para {
   margin: 25px auto 50px auto; }
 
 #portfolio a {
@@ -150,6 +150,10 @@ nav {
   margin: 0px;
   padding: 0px;
   color: tomato; }
+
+#lastUpdated p {
+  margin: 100px auto auto auto;
+  text-align: center; }
 
 .clearfix-bottom {
   height: 150px; }
