@@ -1,59 +1,106 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Richard Mable's official portfolio for web development">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="icons/simple-line-icons.css">
-		<title>Richard Mable</title>
+		<script type="text/javascript" src="javascript/main.js"></script>
+		<title>Richard Mable | Web Developer</title>
 	</head>
 
 	<body>
-		<div class="container">
-			<div class="socialmediabar">
-				<ul>
-					<li>
-						<a href="https://twitter.com/skiwildcat7" target="new"><span class="icon-social-twitter"></span></a>
-					</li>
-					<li>
-						<a href="https://www.linkedin.com/in/richardbmable" target="new"><span class="icon-social-linkedin"></span></a></li>
-					<li><a href="https://github.com/richardmable" target="new"><span class="icon-social-github"></span></a>
-					</li>
-					<li>
-						<a href="https://www.instagram.com/mable_r/" target="new"><span class="icon-social-instagram"></span></a>
-					</li>
-					<li>
-						<a href="http://richardmable.github.io" target="new"><span class="icon-notebook"></span></a>
-					</li>
-					<li>
-						<a href="mailto:richardbmable@gmail.com"><span class="icon-envelope-letter"></span></a>
-					</li>
-				</ul>
-			</div>
-
-			<nav>
-				<ul>
-					<li><a href="index.html" class="navbarlink">Home</a></li>
-					<li><a href="page2.html" class="navbarlink">Portfolio</a></li>
-					<li><a href="page3.html" class="navbarlink">About</a></li>
-					<li>
-				</ul>
-			</nav>
-
-			<div class="maincontent">
-				<h1>Richard Mable</h1>
-				<h2>Welcome to my personal site!</h2>
-				<div class="para-content">
+	<!-- social media bar -->
+		<div class="socialmediabar">
+			<ul>
+				<li>
+					<a href="https://twitter.com/skiwildcat7" target="new"><span class="icon-social-twitter"></span></a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/richardbmable" target="new"><span class="icon-social-linkedin"></span></a></li>
+				<li><a href="https://github.com/richardmable" target="new"><span class="icon-social-github"></span></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/mable_r/" target="new"><span class="icon-social-instagram"></span></a>
+				</li>
+				<li>
+					<a href="http://richardmable.github.io" target="new"><span class="icon-notebook"></span></a>
+				</li>
+				<li>
+					<a href="mailto:richardbmable@gmail.com"><span class="icon-envelope-letter"></span></a>
+				</li>
+			</ul>
+		</div>
+		<!-- top navigation bar -->
+		<nav>
+			<ul>
+				<li><a href="#maincontent" class="navbarlink">Home</a></li>
+				<li><a href="#portfolio" class="navbarlink">Portfolio</a></li>
+				<li><a href="#about" class="navbarlink">About</a></li>
+				<li>
+			</ul>
+		</nav>
+		<!-- top section initial content -->
+		<div id="maincontent">
+			<h1>Richard Mable</h1>
+			<h2>Web Programmer</h2>
+			<div class="para-content">
+				<p>Hello, I'm Richard!</p>
+				<p>
+					I'm a recent graduate of the <a href="http://nycda.com">New York Code and Design Academy</a> in Philadelphia. I enjoy developing the back-end of websites, am interested in health and fitness technology, and enjoy tinkering with the Tessel IO board. I also blog a bit, mostly about problems I come across while coding and how I solve them. You might also see the occasional bike race re-cap in there as well!
+				</p>
+				<div class="bottom-para">
 					<p>
-						I'm a student at the <a href="http://nycda.com">New York Code and Design Academy</a> in Philadelphia. I enjoy developing the back-end of websites, challenging problems and efficient solutions. I also blog a bit, mostly about problems I come across while coding and how I solve them. You might also see the occasional bike race re-cap in there as the spring season starts to spice things up a bit!
+						If you'd like to know more about me, check out my portfolio to see some of my work, or check out the about page to learn more about what I was doing before I became a web developer. Feel free to contact me with questions or comments at the bottom of the page, and be sure to check out the <a href="http://richardmable.github.io" target="new">blog!</a>
 					</p>
-					<div class="bottom-para">
-						<p>
-							If you'd like to know more about me, check out the about page, or look into my portfolio on my favorite projects I've worked on. Feel free to contact me with questions or comments at the bottom of the page, and be sure to check out the blog!
-						</p>
-					</div>
 				</div>
 			</div>
 		</div>
+		<!-- the portfolio section -->
+		<div id="portfolio">
+			<h3>You can find a more detailed discussion of how these projects were created by checking out the blog</h3>
+			<div class="project">
+				<a href="https://github.com/richardmable/shipping" target="new">Shipping Application</a>
+				<p>
+					This project had us create a shipping application that might be used by a shipping company to assign orders, maintain ships, and chart routes. The database for this project was the most demanding aspect, taking the better part of two days to accomplish. As one can imagine, there are many, many ways to set up a database for a project like this, depending on how many features one would like to have. Having only 4 days to build the project, we had to settle for some compromises, but were very pleased in how it came out, and have continued to improve it since then.
+				</p>
+			</div>
+			<div class="project">
+				<a href="https://aqueous-beach-4947.herokuapp.com" target="new">BB-8...6 Microblog</a>
+				<p>
+					This application is an attempt to mimmick some of the functions of Twitter. Challenges for this project included users following each other, limiting the posts to 150 characters, and our first steps towards learning how to validate form information upon submission. It was built with the theme of BB-8, but for bikes, as BB-86 is a bottom bracket type.
+				</p>
+			</div>
+			<div class="project">
+				<a href="https://github.com/richardmable/ruby_ORM" target="new">Ruby ORM (Recreate Activerecord!)</a>
+				<p>
+					This project was to recreate some of the widely used features of Activerecord, and to become more familiar with SQL commands. The most challenging part of this project was parsing the strings that were returned by psql. A great exercise in logical thinking and how to return data that is useful, and not just static.
+				</p>
+			</div>
+		</div>
+		<!-- the about section  -->
+		<div id="about">
+			<div class="mainleft">
+				<h3>Education</h3>
+				<p>Hobart College, 2010</p>
+				<p>B.A., Environmental Studies</p>
+				<p>Pomfret School, 2006</p>
+				<p>NYCDA, 2016!</p>
+				<h3>Past Work:</h3>
+				<p>Brown Ledge Camp: Head of Sailing, Instructor</p>
+				<p>Rectory School: Math Teacher, Technology Educator, IT Support</p>
+				<p>Squaw Kids: Ski Instructor</p>
+				<p>Pacific Rowing Club: Assistant Men's Coach</p>
+			</div>
+			<div class="mainright">
+				<h3>Travels</h3>
+				<p>I grew up in the tiny town of Pomfret, CT, but have lived and visited a number of places so far: San Francisco, L.A., New Zealand, and Tahoe City, and now Philadelphia. I also enjoy taking pictures during my travels, some of which you can see in the photo gallery.</p>
+				<h3>Developer Interests</h3>
+				<p>My primary interest is in the back end of web development and how to make it more efficient. I also thoroughly enjoy data visualization and anything fitness related.</p>
+				<h3>Other Interests</h3>
+				<p>I enjoy skiing, where I am a certified NZSIA Level II instructor, sailing, where I'm a US Sailing certified small boat instructor, and cycling, where I'm currently a Cat 4 racer with <a href="http://qcwcycling.org" taget="new">QCW.</a></p>
+			</div>
+		</div>
 	</body>
-
 </html>
