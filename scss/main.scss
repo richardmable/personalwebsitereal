@@ -203,9 +203,11 @@ nav {
 	}
 }
 
-#lastUpdated p {
-	margin: 100px auto auto auto;
-	text-align: center;
+#lastUpdated {
+	#footer {
+		margin: 100px auto auto auto;
+		text-align: center;
+	}
 }
 
 .clearfix-bottom {
