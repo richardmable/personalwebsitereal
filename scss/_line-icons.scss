@@ -70,6 +70,40 @@ $color-link-hover: #15337A;
 @extend %line-icon-hover;
 }
 
+@media only screen and (max-device-width: 600px){
+	%line-icon-mobile {
+	font-size: 100px;
+	color: $color-line-icon;
+	transition: all 0.5s;
+	text-decoration: none;
+	list-style-type: none;
+	margin: 5px;
+	}
+	.icon-social-twitter{
+	@extend %line-icon-mobile;
+	}
+
+	.icon-social-linkedin{
+	@extend %line-icon-mobile;
+	}
+
+	.icon-social-github{
+	@extend %line-icon-mobile;
+	}
+
+	.icon-social-instagram{
+	@extend %line-icon-mobile;
+	}
+
+	.icon-notebook{
+	@extend %line-icon-mobile;
+	}
+
+	.icon-envelope-letter{
+	@extend %line-icon-mobile;
+	}
+}
+
 
 
 

@@ -214,4 +214,65 @@ nav {
 	height: 150px;
 }
 
+// mobile styling follows
+@media only screen and (max-device-width: 600px) {
+	%a-tag-mobile {
+	display: inline-block;
+	font-size: 65px;
+	text-decoration: none;
+	color: #FFF;
+	margin: 10px;
+	transition: all 0.5s;
+	padding: 10px;
+	border-radius: 5px;
+	}
+
+	body {
+		p, a {
+			font-size: 35px;
+			line-height: 45px;
+		}
+	}
+
+	nav {
+		ul li a {
+			@extend %a-tag-mobile;
+		}
+	}
+
+	#mainContent, #portfolio, #about {
+		width: 100%;
+		h1, h2 {
+			font-size: 55px;
+		}
+		p {
+			text-align: left;
+			margin: 30px;
+		}	
+	}
+
+	#portfolio a {
+		font-size: 55px;
+		margin-left: 30px;
+	}
+
+	#mainContent a, #about a {
+		font-size: 45px;
+	}
+
+	#about .resume p, #about .resume a {
+		text-align: center;
+	}
+
+	.socialmediabar {
+		width: 100%;
+		border-radius: 0px;
+		height: 150px;
+	}
+
+	.clearfix-bottom {
+		height: 225px;
+	}
+}
+
 
