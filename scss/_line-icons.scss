@@ -1,16 +1,16 @@
-$color-side-bar: #FB9B70;
-$color-line-icon: #3F5CA1;
+$color-side-bar: tomato;
+$color-line-icon: #FFFFFF;
 $color-link-hover: #15337A;
 
 
 //placeholder for line icons
 %line-icon {
-	font-size: 3vw;
+	font-size: 40px;
 	color: $color-line-icon;
 	transition: all 0.5s;
 	text-decoration: none;
 	list-style-type: none;
-	padding: 1vw;
+	margin: 5px;
 }
 
 %line-icon-hover {
