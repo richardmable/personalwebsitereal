@@ -6,7 +6,7 @@ $(document).ready(function(){
 	var homeButton = $("#mainContentLink");
 	var portfolioButton = $("#portfolioLink");
 	var aboutButton	= $("#aboutLink");
-	var lastUpdated = $("#lastUpdated");
+	var footer = $("#footer");
 
 	portfolio.hide();
 	about.hide();
@@ -37,11 +37,12 @@ $(document).ready(function(){
 		}
 		about.fadeIn(500);
 	});
-
+	// idea: would be fun to connect to github master branch via API and grab updated
+	// number from there rather than manually updating each time
 	// this caculates how many days ago the site was updated
 	var daysAgo = (((new Date).getTime() / 1000) - 1458247975) / 86400
 	// append the days ago site updated number to the page
-	lastUpdated.append("<p>Last updated: " + daysAgo.toFixed(0) + " days ago.</p>")
+	footer.append(" Last updated: " + daysAgo.toFixed(0) + " days ago.")
 
 });
 
